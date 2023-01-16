@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+.contenidorlogo{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;  
+ }
+ .logotext{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+ }
+
+ /************************NAVEGADOR******************************/
+nav{
+  text-align: center;
+  color: rgb(93, 95, 121);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 900;
+  line-height: 25px;  
+}
+nav a{
+  color: rgb(93, 95, 121);
+}
+nav a:hover{
+  color: rgb(245, 157, 35);
+}
+
+/*****************************INDEX********************************/
+.atom{
+  background-color: rgb(240, 93, 80);
+  display: flex;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+}
+.atomimage{
+  width: fit-content;
+}
+.vegeullista{
+  text-align: center;
+  font-size: 20px;
+}
+.imatgedonasola{
+  width: 90%;
+ }
+ .donesciencia{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(245, 157, 35);
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;  
+ }
+ .titolbox{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+ }
+ .textbox{
+  color: black;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 25px;
+ }
+ .donasola{
+  justify-content: center;
+  text-align: center;
+  line-height: 28px;
+  padding-top: 30px;
+ }
+ .titolreferentscientifiques{
+
+  padding-bottom: 5px;
+}
+.nameindex:hover{
+  color:rgb(245, 157, 35);
+}
+ .llistadones{
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 120px;
+ }
+ /*****************REFERENTS**************************/
+ .llistat{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .llistareferents::before {
+  content: " · "; 
+}
+.llistareferents:first-child::before {
+  content: "";
+}
+.llistareferentslink {
+  color: rgb(245, 157, 35);
+  font-weight: 900;
+  line-height: 25px;
+}
+ .llistareferents{
+  list-style: none;
+  text-align: center;
+  color: rgb(245, 157, 35);
+  font-size: 12px;
+ }
+ .nombre{
+  color: rgb(240, 93, 80);
+  font-size: 50px;
+  font-weight: 800;
+ }
+.job{
+  color: rgb(93, 95, 121);
+  font-weight: 900;
+  font-size: 14px;
+}
+.name{
+  color: rgb(93, 95, 121);
+  font-size: 18px;
+  font-weight: 900;
+}
+.year{
+  color: rgb(93, 95, 121);
+  font-weight: 900;
+  font-size: 13px;
+}
+.description{
+  color: rgb(93, 95, 121);
+  line-height: 25px;
+  font-weight: 700;
+}
+.messobre{
+  color:rgb(245, 157, 35);  
+}
+.messobrep{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.fotodona{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+img{
+  width: 100%;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+ /***********************************11 FEBRER**********/
+
+h2{
+  font-weight: 900;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.textfebrer{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+ .cienciaiigualtat{
+  background-color: rgb(227, 228, 230);
+  padding: 5%;
+  font-weight: 400;
+  
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 20px;
+ } 
+ .onu{
+  font-size: 10px;
+ }
+ .onuul{
+  list-style-image: url("/img/line.PNG");
+  margin-left: 42px;
+ }
+.figcaptionvideo{
+  font-size: 10px;
+}
+iframe{
+  width: 100%;
+}
+/*******************INICIATIVES****************************/
+.llistainiciatives{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.llistainiciatives dt{
+  color: rgb(93, 95, 121);
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.llistainiciatives dt::before{
+  content: '■';
+  position: absolute;
+  left: -2rem;
+  top: -0.3rem;
+  color: rgb(240, 93, 80);
+  font-size: 2rem;
+}
+dd{
+  line-height: 25px;
+}
+
+ /*******************FOOTER****************************/
+footer{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+footer a {
+  color: white;  
+}
+footer a:hover{
+  color: rgb(245, 157, 35);
+}
+footer ul{
+  list-style: none;
+  line-height: 30px;
+}
+.smallfooter{
+  font-size: 12px;
+  line-height: 30px;
+  margin-top: 40px;
+} 
+.inputmail{
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 300px;
+  color: rgb(121, 121, 121);
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px; 
+}
+footer img{
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+footer address{
+  padding-bottom: 40px;
+}
+footer form li{
+  padding: 20px;
+}
+footer p{
+  color: white;
+}
+#correu{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(93, 95, 121);
+}
+abbr{
+  text-decoration: none;
+}
+button{
+  background-color: rgb(240, 93, 80);
+  color: white;
+  padding: 12px 12px 12px 12px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+p{
+  color: rgb(93, 95, 121);
+}
+@media (450px < width <= 768px) { /*********************MOBIL*/
+  .container {
+    max-width: 450px;
+  }
+  .containeriniciatives{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (768px < width <= 1024px ) { /******************TABLET*/
+  .container {
+    max-width: 90%;
+  }
+  .mixatom{
+    margin-bottom: 50px;
+  }
+  .atom{
+    width: 100%;
+    height: 350px;
+  }
+  .donesciencia{
+    width: 100%;
+    height: 250px;
+  }
+  .titolreferentscientifiques{
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .titolbox{
+    font-size: 30px;
+  }
+  .textbox{
+    font-size: 22px;
+    line-height: 29px;
+    text-align: justify;
+  }
+  .llistadones{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .donasola{
+    text-align: left;
+  }
+  .containeriniciatives{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe{
+    width: 100%;
+    height: 405px;    
+  }
+  .llistat{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .fotodona{
+    width: 90%;
+  }
+  .donareferent{
+    display: grid;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+  }
+  .name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .description{
+    font-weight: 400;
+  }
+  footer ul{
+    display: flex;
+    justify-content: center;
+  }
+  footer li{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
+@media (width > 1024px) { /*****************************DESKTOP*/
+  .container {
+    width: 70%;
+  }
+  .container11{
+    max-width: 1024px;
+  }
+  .mixatom{
+    display: flex;
+  }
+  .atom{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .donesciencia{
+    width: 60%;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .atom{
+    width: 40%;
+  }
+  .titolbox{
+    font-size: 40px;
+    text-align: left;    
+  }
+  .llistadones{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .donasola{
+    text-align: left;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;    
+  }
+  header{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 70%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .contenidorlogo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0%;
+  }
+  .containeriniciatives{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cienciaiigualtat{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe{
+    width: 100%;
+    height: auto;    
+  }
+  figure{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .video-fluid {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+  }
+  .video-fluid-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .video-fluid::before {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+  .llistat{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .fotodona{
+    width: 80%;
+  }
+  .donareferent{
+    display: grid;
+    margin-bottom: 40px;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: center;
+  }
+  .name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .description{
+    font-weight: 400;
+  }
+  .llistatidonesreferents{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    margin-top: 30px;
+  }
+  .llistat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+  }
+  .llistat ul li {
+    list-style: none;
+  }
+  .llistareferents::before {
+    content: "";    
+  }
+  footer ul{
+    display: flex;
+    justify-content: center;
+  }
+  footer li{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
